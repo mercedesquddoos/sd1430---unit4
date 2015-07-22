@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information Form</title>
+	<script src="js/application.js"></script>
+</head>
+<body>
+<form>
+First name:<br>
+<input type="text" id="firstname">
+<br>
+Last name:<br>
+<input type="text" id="lastname">
+<br>
+Address:<br>
+<input type="text" id="address">
+<br>
+Phone Number:<br>
+<input type="tel" id="phonenumber">
+<select name="selectionbox">
+<option value="business">Business</option>
+<option value="personal">Personal</option>
+</select>
+<br><br>
+<button type="button" onclick="javascript:printOurForm()">Submit</button>
+<div id="printstuffhere"></div>
+<br><br>
+</form>
+</body>
